@@ -47,3 +47,8 @@ body {
 .entry-content h2 {
     font-weight: 700;
 }
+    /*part3*/
+    /*bouton*/
+.wp-block-button__link:hover {
+    background-color: #C02E44 !important;
+}
