@@ -16,6 +16,7 @@ body {
 }
 
 /*page accueil*/
+    /*part1*/
 .wp-block-group {
     margin-top: 60px;
 }
@@ -40,4 +41,9 @@ body {
     position: relative;
     right: 223px;
     top: 60px;
+}
+    /*part2*/
+    /*titre*/
+.entry-content h2 {
+    font-weight: 700;
 }
