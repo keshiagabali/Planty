@@ -11,3 +11,33 @@ Updated: 2023-12-02 15:06:54
 
 */
 
+body {
+    font-family: 'Syne';
+}
+
+/*page accueil*/
+.wp-block-group {
+    margin-top: 60px;
+}
+    /*titre*/
+.entry-content h1 {
+    font-weight: 800;
+}
+    /*img*/
+.wp-image-40 {
+    position: relative;
+    left: 212px;
+    top: 60px;
+    
+}
+.wp-image-41 {
+    position: relative;
+    z-index: 1;
+    top: 30px;
+    
+}
+.wp-image-43 {
+    position: relative;
+    right: 223px;
+    top: 60px;
+}
