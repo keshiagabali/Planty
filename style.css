@@ -59,6 +59,15 @@ body {
     /*img*/
 .wp-image-289 {
     position: relative;
-    top: -290px;
-    left: 60px;
+    top: 90px;
+    left: -480px;
 }   
+.wp-container-core-group-layout-1{
+    margin-top: -50px;
+}
+    /*part2*/
+.wp-image-366 {
+    position: relative;
+    bottom: 180px;
+    right: -550px;
+}
