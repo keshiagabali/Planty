@@ -71,3 +71,30 @@ body {
     bottom: 180px;
     right: -550px;
 }
+    /*part3*/
+    /*formulaire*/
+.wpcf7-form-control {
+    background-color: white !important;
+    border-radius: 7px !important;
+    border-color: white !important;
+    position: relative !important;
+    z-index: 1 !important;
+}
+.wpcf7-form p label {
+    font-size: 20px !important;
+}
+.wp-container-core-group-layout-10 {
+    margin-top: -190px !important;
+    
+}
+.wpcf7-submit {
+    background-color: #E0B9B4 !important;
+    border-radius: 5px !important;
+    width: 198px !important;
+    height: 55px !important; 
+}
+.wp-image-372 {
+    position: relative;
+    bottom: 250px;
+    right: 210px;
+}
