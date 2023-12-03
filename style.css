@@ -28,14 +28,12 @@ body {
 .wp-image-40 {
     position: relative;
     left: 212px;
-    top: 60px;
-    
+    top: 60px; 
 }
 .wp-image-41 {
     position: relative;
     z-index: 1;
     top: 30px;
-    
 }
 .wp-image-43 {
     position: relative;
@@ -84,8 +82,7 @@ body {
     font-size: 20px !important;
 }
 .wp-container-core-group-layout-10 {
-    margin-top: -190px !important;
-    
+    margin-top: -190px !important; 
 }
 .wpcf7-submit {
     background-color: #E0B9B4 !important;
@@ -93,8 +90,18 @@ body {
     width: 198px !important;
     height: 55px !important; 
 }
+.wpcf7-submit:hover {
+    background-color: #C02E44 !important;
+}
 .wp-image-372 {
     position: relative;
     bottom: 250px;
     right: 210px;
+}
+
+/*page commander*/
+    /*part1*/
+.wp-block-separator {
+    width: 860px;
+    border: 1px solid black;
 }
