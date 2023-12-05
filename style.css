@@ -98,7 +98,7 @@ body {
     bottom: 250px;
     right: 210px;
 }
-.wp-image-265 {
+.wp-image-472 {
     background-color: #ECE2DA;
 }
 
@@ -106,13 +106,62 @@ body {
     /*part1*/
 .wp-block-separator {
     width: 860px;
-    border: 1px solid black;
+    border: 1px solid white;
+}
+.div-votre-commande {
+    margin-top: -95px !important;
 }
     /*part2
-.h2-votre-commande {
-    margin-left: 175px !important;
-}   */
+    /*form*/
+.wp-container-core-group-layout-4{
+    margin-top: -80px !important;
+}
+#wpcf7-f467-p17-o1 h2 {
+    color: white;
+}
+#wpcf7-f467-p17-o1 label {
+    color: white;
+}
+#text-655 {
+    width: 39px;
+    height: 56px;
+    left: 90px;
+}
+#text-656 {
+    width: 39px;
+    height: 56px;
+    left: 35px;
+}
+#text-657 {
+    width: 39px;
+    height: 56px;
+    right: 35px;
 
-#wpcf7-f458-p17-o1 {
-    background-color: #3B8E46;
+}
+#text-658 {
+    width: 39px;
+    height: 56px;
+    right: 90px;
+}
+.text-numbers {
+    display: flex;
+    justify-content: space-between;
+}
+.separator-form1{
+    width: 860px;
+    border: 1px white;
+}
+.informations-livraison{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.separator-form2 {
+    border: 1px solid white;
+    height: 340px; 
+}
+#button-commander {
+    margin-top: 20px !important;
+    display: block;
+    margin: 0 auto;
 }
