@@ -53,7 +53,6 @@ body {
 }
 .arc-2{
     border-radius: 0 0 150% 150%;
-   
     background-color: #ECE2DA;
 }
     /*part2*/
@@ -66,6 +65,7 @@ body {
 .wp-block-button__link:hover {
     background-color: #C02E44 !important;
 }
+
     /*part4*/
 
 /*page nous rencontrer*/
@@ -93,10 +93,20 @@ body {
     border-color: white !important;
     position: relative !important;
     z-index: 1 !important;
+    width: 383px !important;
 }
 .wpcf7-form p label {
     font-size: 20px !important;
 }
+.form-contact {
+    margin-top: -230px !important;
+}
+
+#b99a886 {
+    width: 383px;
+    height: 71px;
+}
+
 /*.wp-container-core-group-layout-10 {
     margin-top: -190px !important; 
 }*/
@@ -116,6 +126,7 @@ body {
 }
 .wp-image-472 {
     background-color: #ECE2DA;
+    margin-top: -100px;
 }
 
 /*page commander*/
