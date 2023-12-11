@@ -46,6 +46,16 @@ body {
     right: 223px;
     top: 60px;
 }
+.arc-1{
+    border-radius: 0 0 150% 150%;
+    box-shadow: 0 10px 0 #dcd5cf;
+    background-color: #ECE2DA;
+}
+.arc-2{
+    border-radius: 0 0 150% 150%;
+   
+    background-color: #ECE2DA;
+}
     /*part2*/
     /*titre*/
 .entry-content h2 {
@@ -87,9 +97,9 @@ body {
 .wpcf7-form p label {
     font-size: 20px !important;
 }
-.wp-container-core-group-layout-10 {
+/*.wp-container-core-group-layout-10 {
     margin-top: -190px !important; 
-}
+}*/
 .wpcf7-submit {
     background-color: #E0B9B4 !important;
     border-radius: 5px !important;
