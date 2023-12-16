@@ -13,13 +13,35 @@ Updated: 2023-12-02 15:06:54
 
 body {
     font-family: 'Syne';
+    max-width: 1440px;
+    margin: 0 auto;
 }
     /*header*/
 .custom-logo {
     width: 201px;
     height: 19px;
 }    
+#menu-item-640{
+    font-weight: 700;
+    font-size: 13px;
+}
+.ast-nav-menu li#menu-item-641 a.menu-link {
+    color: #ffffff;
+}
+#menu-item-641{
+    width: 236px;
+    height: 80px;
+    font-weight: 700;
+    font-size: 16px;
+    color: white !important;
+    background-color: #DC9F96;
+    align-items: center;
+}
+#menu-item-641:hover {
+    background-color: #C02E44;
+}
     /*footer*/
+
 
 /*page accueil*/
     /*part1*/
@@ -31,6 +53,9 @@ body {
     font-weight: 800;
 }
     /*img*/
+.wp-container-core-columns-layout-1 {
+    width: 1176px !important;
+}
 .wp-image-40 {
     position: relative;
     left: 212px;
@@ -65,9 +90,10 @@ body {
 .wp-block-button__link:hover {
     background-color: #C02E44 !important;
 }
-
     /*part4*/
-
+.wp-block-image {
+    margin-bottom: 0px !important;
+}
 /*page nous rencontrer*/
     /*part1*/
     /*img*/
@@ -87,7 +113,7 @@ body {
 }
     /*part3*/
     /*formulaire*/
-.wpcf7-form-control {
+.champs-form {
     background-color: white !important;
     border-radius: 7px !important;
     border-color: white !important;
@@ -101,15 +127,10 @@ body {
 .form-contact {
     margin-top: -230px !important;
 }
-
 #b99a886 {
     width: 383px;
     height: 71px;
 }
-
-/*.wp-container-core-group-layout-10 {
-    margin-top: -190px !important; 
-}*/
 .wpcf7-submit {
     background-color: #E0B9B4 !important;
     border-radius: 5px !important;
@@ -121,22 +142,29 @@ body {
 }
 .wp-image-372 {
     position: relative;
-    bottom: 250px;
-    right: 210px;
+    bottom: 270px;
+    right: 187px;
 }
 .wp-image-472 {
     background-color: #ECE2DA;
     margin-top: -100px;
 }
+.center-button {
+    display: block;
+    margin: 0 auto;
+}
 
 /*page commander*/
+.width-commander {
+    width: 860px !important;
+}
+.marge-commander-h2 {
+    padding-left: 0px !important;
+}
     /*part1*/
 .wp-block-separator {
     width: 860px;
     border: 1px solid white;
-}
-.div-votre-commande {
-    margin-top: -95px !important;
 }
     /*part2
     /*form*/
@@ -163,7 +191,6 @@ body {
     width: 39px;
     height: 56px;
     right: 35px;
-
 }
 #text-658 {
     width: 39px;
@@ -172,7 +199,7 @@ body {
 }
 .text-numbers {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .separator-form1{
     width: 860px;
